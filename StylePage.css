@@ -1,0 +1,77 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+background-color: #fff;
+color: #3b3b3b;
+font-family: 'lato','Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+} 
+.row{
+	max-width:1140px;
+	margin:0 auto;
+}
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+} 
+header{
+	
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,0.5)), url("robot3.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.brdr{
+    width: 300px; 
+    height: 300x;
+    padding: 10;
+    border: #fff 1px solid;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: auto;
+}
+
+h1{ 
+    margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 4px;
+} 
+
+/*----------* BUTTONS *----------*/
+
+button{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300; 
+	text-decoration: none;
+	border-radius: 200px;
+	color: #fff;
+	transition: background-color 0.2s, border 0.2s;
+	background-color: #b4b4b4;
+	border: none;
+}
+button:hover,
+button:active{
+	background-color: #698474;
+
+}
+.btn-stop:hover,button:active{
+background-color: #c70c0c;    
+}
